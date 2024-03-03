@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnimeTank - All about anime</title>
+    <link rel="stylesheet" href="/html/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+  </head>
+<body> 
+     <!-- ============== navbar ============================== -->
+     <section class="image" style="background-image: url(/image/img4.png); background-position: center;background-size: cover;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1" href="#">Anime<span style="color: orange;">Tank </span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="/html/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/html/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+               Channels
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" style="font-size: small;font-weight: 500;">Sonic</a></li>
+                <li><a class="dropdown-item" href="#" style="font-size: small;font-weight: 500;">DisneyXD</a></li>
+                <li>
+                  <a class="dropdown-item" href="#" style="font-size: small;font-weight: 500;">Nicklodean</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html/">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-info mx-2 "  style="font-weight: 500; height:35px;width:90px;padding: 2px" type="submit">
+              Login
+            </button>
+            <button class="btn btn-warning " style="font-weight: 500; height:35px;width:90px;padding: 2px" type="submit">
+              Sign up
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- ============== head section ============================== -->
+  
+    <div class="container parent-container my-4">
+        <h2 class=" mb-3 mx-lg-5">Contact Us</h2>
+        <form > 
+            <div class="mb-3 mx-lg-5">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text" style="color: rgb(250, 10, 10);">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3 mx-lg-5">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1"> 
+            </div>
+            <div class="mb-3 mx-lg-5">
+            <select class="form-select" style="background: transparent;color: aliceblue;" aria-label="Default select example">
+                <option selected id="optn">Select your Query </option>
+                <option value="1">live streaming</option>
+                <option value="2">content</option>
+                <option value="3">News</option>
+              </select>
+            </div>
+            <div class="mb-3 mx-lg-5">
+                <label for="exampleFormControlTextarea1" class="form-label">Elaborate your concern</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  style="background:transparent;color: aliceblue;"></textarea>
+              </div>
+            <div class="mb-2 form-check mx-lg-5">
+              <label class="form-check-label" for="exampleCheck1">
+                <span  style="color: rgb(235, 245, 245);"> Are you a member?</span></label>
+              <input type="checkbox"class="form-check-input" id="exampleCheck1" style="background-color:rgba(37, 37, 37, 0.486) ;"> 
+            </div>
+            <button type="submit " class="btn btn-secondary mx-lg-5">Submit</button>
+          </form>
+        </div>
+        <!-- ============== footer Section ============================== -->
+
+        <div class=" d-flex justify-content-center align-item-center " style="background-color: rgba(19, 17, 17, 0.829);">
+      <footer class="py-4 m-auto">
+        <p style="color: rgb(231, 230, 226);"> <strong>Anime<span style="color: orange;">Tank</span></strong>© 2023 Company, Inc. All rights reserved.</p>
+        <div class="parent-list">
+        <ul class="d-flex justify-content-center align-item-center list-unstyled px-5 my-0">
+          <li class="ms-3"><a class="link-body-emphasis" href="#">
+          <i class="fa-brands fa-twitter fa-lg" style="color: #0a0a0a;"></i></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#">
+          <i class="fa-brands fa-facebook fa-lg" style="color: #0a0a0a;"></i></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#">
+          <i class="fa-brands fa-instagram fa-lg" style="color: #0a0a0a;"></i></li>
+        </ul>
+        </div>
+      </footer>
+    </section>
+      
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

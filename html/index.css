@@ -1,0 +1,114 @@
+/* ====================== HOME PAGE ============================= */
+.carousel-item img {
+  background-size: auto;
+  background-position: center;
+}
+.card-box {
+  background-color: rgba(243, 243, 243, 0.877);
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 6px 6px 10px rgba(95, 95, 95, 0.87);
+}
+.card-box {
+  background-position: center;
+}
+.card-box:hover {
+  transform: scale(1.05);
+  transition-duration: 1s;
+  box-shadow: 6px 6px 10px rgba(5, 5, 5, 0.87);
+}
+.card-info {
+  font-size: 0.8rem !important;
+}
+.btn-sm {
+  width: 100px;
+  margin-top: 10px;
+}
+.card-container h1 {
+  background-image: url("/image/about4.webp");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  font-weight: 900 !important;
+  color: transparent !important;
+}
+
+.carousel-caption button{
+  transition: all .4s linear;
+}
+/* ===================== PRICE SECTION ====================== */
+.pricing-header h1 {
+  background-image: url("/image/img2.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  font-weight: 900 !important;
+  color: transparent !important;
+}
+.main-box {
+  background-color: rgba(243, 243, 243, 0.877);
+  box-shadow: 1px 1px 8px rgba(95, 95, 95, 0.87);
+}
+.main-box:hover {
+  transform: scale(1.02);
+  transition-duration: 0.3s;
+  box-shadow: 6px 6px 10px rgba(5, 5, 5, 0.438);
+}
+
+/* ==================== Contact section ===================== */
+
+.parent-container {
+  box-shadow: 15px 12px 20px rgb(7, 7, 7);
+  border-radius: 5px;
+  height: 620px;
+  width: 500px !important ;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+}
+.form-control {
+  background: transparent !important;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+.form-select {
+  color: rgb(13, 14, 14) !important;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.parent-container h2 {
+  background: url('/image/img2.jpg');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 2.1em !important;
+  font-weight: 900;
+  padding-bottom: 20px;
+  text-align: center;
+  color: transparent !important;
+
+}
+.parent-container button{
+  margin-top :20px;
+  justify-self: center;
+  width: 80%;
+}
+.parent-list li{
+  border: 0px solid rgba(2, 2, 2, 0.521);
+  padding:6px 9px;
+  border-radius: 50%;
+ background: rgb(219, 226, 225);
+ transition: 0.5s;
+}
+.parent-list li:hover{
+background-color: orange;
+}
